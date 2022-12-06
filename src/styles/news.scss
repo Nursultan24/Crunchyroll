@@ -1,0 +1,70 @@
+
+.container2{
+  background: black;
+}
+.news{
+  display: flex;
+  justify-content: space-between;
+  background: url('../assets/animeList/newsBac.jpg');
+  padding: 30px;
+  &__all{
+    display: flex;
+    column-gap: 40px;
+
+  }
+  &__block{
+    padding: 20px;
+  }
+  &__title{
+    padding: 0 0 20px 0;
+    border-bottom: 4px solid yellow;
+    font-size: 35px;
+  }
+  &__left{
+    max-width: 20%;
+    &-card{
+
+      &-img{
+        width: 100%;
+        height: 120px;
+
+      }
+      &-name{
+        margin: 15px 0;
+        font-size: 20px;
+      }
+      &-time{
+        font-size: 13px;
+        margin: 20px 0;
+        color: #38414b;
+      }
+      &-title{
+        font-size: 16px;
+        line-height: 20px;
+      }
+    }
+  }
+  &__right{
+    max-width: 80%;
+    &-card-desc{
+      white-space: nowrap;
+    }
+    &-card-info{
+      width: 80%;
+      display: flex;
+      column-gap: 35px;
+    }
+    &-card-text{
+      width: 60%;
+    }
+    &-card-photo{
+      width: 40%;
+      height: 90px;
+      img {
+        width: 100%;
+        height: 80px;
+        object-fit: cover;
+      }
+    }
+  }
+}

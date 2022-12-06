@@ -1,0 +1,40 @@
+
+.slideSmall{
+  background: url("../assets/Small.png")no-repeat;
+  background-color: #2abdbb;
+  height: 400px;
+
+
+  &__card{
+    height: 350px;
+    cursor: pointer;
+    margin-bottom: 15px;
+
+    &-img{
+      width: 160px;
+      height: 250px;
+      object-fit: cover;
+    }
+    &-info{
+      &-title{
+        margin: 10px 0 10px 0;
+      }
+      &-desc{
+        margin: 20px 0 20px;
+        border-bottom: 4px solid orange;
+        padding: 0 0 20px 0;
+      }
+    }
+  }
+}
+
+.slideSmall .swiper-pointer-events {
+  touch-action: pan-y;
+  padding: 0 40px;
+}
+.swiper-button-next, .swiper-rtl .swiper-button-prev {
+  right: 10px;
+  left: auto;
+}
+
+

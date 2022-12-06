@@ -1,0 +1,21 @@
+.terms{
+  &__info{
+
+  }
+  &__card{
+    margin: 20px 0;
+  }
+  &__title{
+    border-bottom: 1px solid gray;
+    margin-bottom: 15px;
+  }
+  &__ul{
+    margin-top: 15px;
+    &-li{
+      margin:0 0 10px 10px ;
+    }
+  }
+  &__email{
+    margin: 10px 0;
+  }
+}

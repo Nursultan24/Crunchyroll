@@ -1,0 +1,48 @@
+.aboutUs{
+  background: #ffffff;
+
+
+  &__start{
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    text-align: center;
+  }
+  &__title{
+    color: black;
+    font-size: 30px;
+    margin: 40px 0;
+
+    &-btn{
+      background: #f47521;
+      border: none;
+      padding: 24px 70px;
+      font-size: 20px;
+      margin: 40px 0;
+    }
+  }
+  &__card{
+    width: 500px;
+    height: 400px;
+    text-align: center;
+    margin-bottom: 20px;
+    &-img{
+      max-height: 600px;
+      width: 100%;
+      object-fit: cover;
+    }
+    &-title{
+      color: #213944;
+      font-size: 250%;
+      margin-top: 20px;
+    }
+  }
+  &__content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 30px;
+    justify-content: center;
+    align-items: center;
+
+  }
+}

@@ -1,0 +1,221 @@
+{
+  "anime": [
+    {
+      "id": 1,
+      "title": "My Hero Academia ",
+      "description": "Идзуку всю жизнь мечтал стать героем. Это непростая цель для любого, но особенно для мальчика без суперсил. В его мире четыре пятых людей обладают причудой — некого рода сверхъестественной способностью, но Идзуку не посчастливилось родиться совершенно заурядным. Но ему ничего не помешает вступить в одну из лучших школ для обучения героев.",
+      "genre": "фэнтези",
+      "poster": "https://www.crunchyroll.com/imgsrv/display/thumbnail/320x180/catalog/crunchyroll/06fc92ad23598cf0baba61d9e7dcc46e.jpe",
+      "studios": "Toho",
+      "img": "https://www.crunchyroll.com/imgsrv/display/thumbnail/1200x675/catalog/crunchyroll/f0dfabec20d9f3ce33add1a92d381c70.jpe",
+      "series": "https://www.crunchyroll.com/imgsrv/display/thumbnail/240x360/catalog/crunchyroll/7e023c55c6cb63b2ecbb31b6aae9bf12.jpe"
+    },
+    {
+      "id": 2,
+      "title": "Семья шпиона",
+      "description": "Над миром нависла страшная угроза! Шпиону «Сумраку» предстоит выполнить сложнейшую миссию в своей карьере… стать примерным семьянином.Под видом любящего мужа и отца он должен проникнуть в элитную школу и сблизиться с верхами мира политики. На первый взгляд прикрытие вышло великолепное, во только его жена — наёмная убийца. И супруги не знают о настоящей работе друг друга… В курсе только их приёмная дочь-телепат!",
+      "genre": "комедия",
+      "poster": "https://www.crunchyroll.com/imgsrv/display/thumbnail/320x180/catalog/crunchyroll/912c6649b95f7303fc999994388fc3c7.jpe",
+      "studios": "Toho",
+      "img": "https://www.crunchyroll.com/imgsrv/display/thumbnail/1200x675/catalog/crunchyroll/5a9cac4da58ec396b489713de0e10144.jpe",
+      "series": "https://www.crunchyroll.com/imgsrv/display/thumbnail/240x360/catalog/crunchyroll/689e2efcf9f192ba6c0f7a538ee99027.jpe"
+    },
+    {
+      "id": 3,
+      "title": "Я злодейка, поэтому должна заарканить последнего босса",
+      "description": "Я злодейка, поэтому должна заарканить последнего босса",
+      "genre": "комедия",
+      "poster": "https://www.crunchyroll.com/imgsrv/display/thumbnail/320x180/catalog/crunchyroll/c7e76c35911e36d63a9f52111eb62520.jpe",
+      "studios": "MBS",
+      "img": "https://www.crunchyroll.com/imgsrv/display/thumbnail/1200x675/catalog/crunchyroll/edc041f884628bad7f47e4597e20be23.jpe",
+      "series": "https://www.crunchyroll.com/imgsrv/display/thumbnail/240x360/catalog/crunchyroll/a2e69dc8c94b793acd2da2a0ac2794d4.jpe"
+    },
+    {
+      "id": 4,
+      "title": "Боруто: Новое поколение",
+      "description": "Жизнь синоби постепенно меняется… Боруто Удзумаки, сын Седьмого Хокаге Наруто, поступил в Академию познать азы ниндзя. Случайные, казалось бы, события сливаются во что-то одно и большое, движутся шестерёнки, начинается история Боруто.",
+      "genre": "экшен",
+      "poster": "https://www.crunchyroll.com/imgsrv/display/thumbnail/320x180/catalog/crunchyroll/a36f61c64e3cbf4a825ac08d7ee52bd0.jpe",
+      "studios": "TV TOKYO",
+      "img": "https://www.crunchyroll.com/imgsrv/display/thumbnail/1200x675/catalog/crunchyroll/0134972d07375f03bf83813f1d56870d.jpe",
+      "series": "https://www.crunchyroll.com/imgsrv/display/thumbnail/240x360/catalog/crunchyroll/c144fe4a2d2a96a173a92fcf6850fd98.jpe"
+    },
+    {
+      "id": 5,
+      "title": "МАГИЧЕСКАЯ БИТВА",
+      "description": "Юдзи Итадори — сильный юноша, который ведёт заурядную жизнь старшеклассника. Однажды, чтобы спасти друзей от нападения проклятий, он съедает палец Двуликого призрака, который становится частью его души. С этого момента он делит с ним своё тело. Под присмотром Сатору Годзё, одного из сильнейших магов, Итадори поступает в магический техникум, где учат сражаться с проклятиями.",
+      "genre": "мистика",
+      "poster": "https://www.crunchyroll.com/imgsrv/display/thumbnail/320x180/catalog/crunchyroll/1ef057fb7fd088de798cc4a6571cc4a2.jpe",
+      "studios": "Toho",
+      "img": "https://www.crunchyroll.com/imgsrv/display/thumbnail/1200x675/catalog/crunchyroll/98662d1c546c4e74de58fbc52679ac6c.jpe",
+      "series": "https://www.crunchyroll.com/imgsrv/display/thumbnail/240x360/catalog/crunchyroll/47efe819e954f83cf0b8e022c39488ce.jpe"
+    },
+    {
+      "id": 6,
+      "title": "Истребитель демонов",
+      "description": "Эпоха Тайсё. Ещё с древних времён ходят слухи, что в лесу обитают демоны, которые питаются людьми и выискивают по ночам новых жертв. Однажды Тандзиро Камадо уходит в соседний город, чтобы продать древесный уголь. Вернувшись утром, парень обнаруживает перед собой страшную картину: вся родня зверски убита, а единственная выжившая - младшая сестра Нэдзуко, обращённая в демона, но пока не потерявшая человечность. С этого момента начинается долгое и опасное путешествие Тандзиро и Нэдзуко, в котором мальчик намерен разыскать убийцу и узнать способ исцеления сестры.",
+      "genre": "экшен",
+      "poster": "https://www.crunchyroll.com/imgsrv/display/thumbnail/320x180/catalog/crunchyroll/9a2089c84a76c3db3e51d0277f0433c9.jpe",
+      "studios": "Aniplex of America",
+      "img": "https://www.crunchyroll.com/imgsrv/display/thumbnail/1200x675/catalog/crunchyroll/f7adcedd1d7c53ae18d851003a3cfae4.jpe",
+      "series": "https://www.crunchyroll.com/imgsrv/display/thumbnail/240x360/catalog/crunchyroll/d48d4a62b0ac6381c87bd040b69b0a89.jpe"
+    },
+    {
+      "id": 7,
+      "title": "Мемуары Ванитаса",
+      "description": "Мемуары Ванитаса",
+      "genre": "драма",
+      "poster": "https://www.crunchyroll.com/imgsrv/display/thumbnail/320x180/catalog/crunchyroll/3ef3d438505584690fbf55603c8ce933.jpeg",
+      "studios": "Aniplex of America",
+      "img": "https://www.crunchyroll.com/imgsrv/display/thumbnail/1200x675/catalog/crunchyroll/69a055ceed91e4513bf8b986f3069381.jpeg",
+      "series": "https://www.crunchyroll.com/imgsrv/display/thumbnail/240x360/catalog/crunchyroll/efa8f160c660955cf5a510485cef6ea1.jpeg"
+    },
+    {
+      "id": 8,
+      "title": "Ориент",
+      "description": "Долгие годы в Хиномото шла кровопролитная война феодалов. Но внезапно один за другим они стали гибнуть от рук таинственного Кисина. Кисин — демоническое создание, что положило конец правлению людей. С тех пор минуло 150 лет. И сейчас только группы воинов — буси — сражаются против власти незваного гостя.",
+      "genre": "приключение",
+      "poster": "https://www.crunchyroll.com/imgsrv/display/thumbnail/320x180/catalog/crunchyroll/3ec3f4f61c4acbad335e8010a4a782f8.jpeg",
+      "studios": "Kodansha Ltd.",
+      "img": "https://www.crunchyroll.com/imgsrv/display/thumbnail/1200x675/catalog/crunchyroll/8581ee003684720b6c82bece6f43c104.jpeg",
+      "series": "https://www.crunchyroll.com/imgsrv/display/thumbnail/240x360/catalog/crunchyroll/69a132a8aa8264b2b696387d3207fae5.jpeg"
+    },
+    {
+      "id": 9,
+      "title": "Власть книжного червя",
+      "description": "Она очнулась в другом мире… Трагическая случайность оборвала жизнь книголюбки Урано Мотосу, причём вскоре после того, как её приняли на работу в библиотеку, как она и мечтала. Придя в себя, Урано обнаружила, что перенеслась в тело девочки Майн, дочери простого стражника. Теперь она живёт в параллельном мире, в городе Эренфест, где правит владеющая магией знать. Но для Майн это не имеет значения: всё, что ей нужно в жизни – это находиться рядом с книгами.",
+      "genre": "приключение",
+      "poster": "https://www.crunchyroll.com/imgsrv/display/thumbnail/320x180/catalog/crunchyroll/a58b5a8f61b720b95b5615e488665630.jpeg",
+      "studios": "Happinet Co., Ltd.",
+      "img": "https://www.crunchyroll.com/imgsrv/display/thumbnail/1200x675/catalog/crunchyroll/52c137e4b0355199c8e23eeb0f846c26.jpeg",
+      "series": "https://www.crunchyroll.com/imgsrv/display/thumbnail/240x360/catalog/crunchyroll/085af105e7599a59da03ab47750a36e5.jpeg"
+    },
+    {
+      "id": 10,
+      "title": "Повелитель",
+      "description": "2138 год. Некогда популярная виртуальная онлайн-игра «Иггдрасиль» прекратила работу. Один из игроков, Момонга, ждал рокового часа, сидя в одиночестве в великой гробнице Назарик, ещё недавно — гордости и славе его гильдии. Но почему-то его не отключило от игры. NPC вдруг обрели собственный разум, а вокруг Назарика раскинулся незнакомый мир. Момонга решил взять себе имя родной гильдии — Айнз Ул Гоун — и прославить его, чтобы отыскать старых друзей. Вместе с верными союзниками он готовится напасть на новые земли. Владыка смерти и властелин мира возвращается!",
+      "genre": "мистика",
+      "poster": "https://www.crunchyroll.com/imgsrv/display/thumbnail/320x180/catalog/crunchyroll/241df0eb28d4df0ad7ef6ee72bb5e75b.jpeg",
+      "studios": "Kadokawa Pictures Inc.",
+      "img": "https://www.crunchyroll.com/imgsrv/display/thumbnail/1200x675/catalog/crunchyroll/5b65797ccc7305b99cd8f1922d66d777.jpeg",
+      "series": "https://www.crunchyroll.com/imgsrv/display/thumbnail/240x360/catalog/crunchyroll/59dd9785564f46c3cf2a18b38149f5a1.jpeg"
+    },
+    {
+      "id": 11,
+      "title": "BLUELOCK",
+      "description": "Японская сборная всё никак не оклемается после сокрушительного поражения на чемпионате мира в 2018 году. Чего же не хватило им для победы? Настоящей звезды! Бомбардира, на чьих плечах они бы выбились в чемпионы! И теперь Японская футбольная ассоциация взяла курс на то, чтобы вырастить такого игрока: жадного до голов и побед. Вырастить голеадора, способного перевернуть ход уже, казалось бы, проигранного матча! Для этого она созвала со всех концов страны триста молодых и талантливых футболиста. Кто из них выстоит до победного и станет лидером команды? Кто превзойдёт конкурентов как физически, так и психологически?",
+      "genre": "экшен",
+      "poster": "https://www.crunchyroll.com/imgsrv/display/thumbnail/320x180/catalog/crunchyroll/aebcfb8f0c30a78218463626f228e433.jpe",
+      "studios": "Kodansha Ltd.",
+      "img": "https://www.crunchyroll.com/imgsrv/display/thumbnail/1200x675/catalog/crunchyroll/d46bbba875a6d0ffef9d3025fb55dd5f.jpe",
+      "series": "https://www.crunchyroll.com/imgsrv/display/thumbnail/240x360/catalog/crunchyroll/9d559e801c720bc2743cbc44793753bf.jpe"
+    }
+  ],
+  "users": [
+    {
+      "email": "nurs@mail.ru",
+      "password": "$2a$10$zncUuJ1oxxvl7M1czLzxQe.ZXPsIjLq524vN8OleP6Qawbq4UB.8m",
+      "id": 1
+    },
+    {
+      "email": "nelsonmustafaev24@mail.ru",
+      "password": "$2a$10$YHpcdQf.xCkPXREDqthlP.bvr9AtiIU0vVsZhUzvbj.HACGgDSGFe",
+      "id": 2
+    },
+    {
+      "email": "alisher@mail.ru",
+      "password": "$2a$10$E1lWqevVpnY1SWRekrW4g.ET6wzoUma6O2YiuJFuRvIKgn5g3zWb.",
+      "id": 3
+    },
+    {
+      "email": "asd@gmail.cpm",
+      "password": "$2a$10$IeB1zy23Cuw3hrk/YJX8au1Itrp4hdUmE6Qbb1nH3TIeOE2T/xAh.",
+      "id": 4
+    },
+    {
+      "email": "nurchik@mail.ru",
+      "password": "$2a$10$OXEgFYYoLGyHzJrhjnqdi.sXZHCGM4GWPOwTctPi9uK0ub25svDYm",
+      "id": 5
+    },
+    {
+      "email": "Muslim@mail.ru",
+      "password": "$2a$10$x.cG.o/BDBg4oJBB1sYVNe43GDn9bLeRKPhtKmhldlt433j9Bzbue",
+      "id": 6
+    },
+    {
+      "email": "nelson@mail.ru",
+      "password": "$2a$10$ROje1ZNHD6Efx6ysgRq.ee2jn925VQGHhRMbszSmP0Tihw/BCj.iO",
+      "id": 7
+    },
+    {
+      "email": "nelsonM@mail.ru",
+      "password": "$2a$10$nx0KA4CpfKcHVtwCsobuzOChF.70CR2extVSwunesgZqfs5sWvvGC",
+      "id": 8
+    },
+    {
+      "email": "nursultanmustafaev15@gmail.com",
+      "password": "$2a$10$Msj18iIoDA0nBnBZBLK9zuYnqMkSK7z6zEbNstHKs5Zt3vHMRmGpy",
+      "id": 9
+    },
+    {
+      "email": "nurchik@gmail.ru",
+      "password": "$2a$10$gkypNs22pM18wnnIU4Lnc.XaFx9jQEQOXJORlUlZmUdMpyAKEHmKW",
+      "id": 10
+    },
+    {
+      "email": "nelson@gmail.ru",
+      "password": "$2a$10$bCVTeS9PrRq6ljloj38cuOd2YBchj0SIX48HejLn6c.aBJMS3TwOq",
+      "id": 11
+    },
+    {
+      "email": "aldil@mail.ru",
+      "password": "$2a$10$zqiETKWBaJgBBNPHknONR.1ENIorrAZ/NUivlZxBB6Q4nDS3t02ny",
+      "id": 12
+    },
+    {
+      "email": "akdil1@mail.ru",
+      "password": "$2a$10$HVrUnd1McLYNPqhclbqE2unFbiro/GKx9iBvI/Ewc8Kqam3EqFj0.",
+      "id": 13
+    },
+    {
+      "email": "akdil2@mail.ru",
+      "password": "$2a$10$BDcArlyP.O8ptPiIJB1mUuDl0By5prL6btaRjFi07OYq.EkLssHmm",
+      "id": 14
+    },
+    {
+      "email": "akdil3@mail.ru",
+      "password": "$2a$10$olJUFe1/KbNrAOFMwaTfQ.dsoMbB9OrwuSvLhS5HtKjhC9yKZmENG",
+      "id": 15
+    },
+    {
+      "email": "akdil5@mail.ru",
+      "password": "$2a$10$UcftG6GLrMXkEs6RuUsT4.BhAQzBgzCOw0ZqQrgAyu0uYlwbtB75C",
+      "id": 16
+    },
+    {
+      "email": "Nurs@mail.ru",
+      "password": "$2a$10$zenJix.srJAM3IdQztWh2O5MDS38ZJFiURCsbyFpt9wlkisSdYD9a",
+      "id": 17
+    },
+    {
+      "email": "nElson@mail.ru",
+      "password": "$2a$10$QoG2Ru1y3iBNn2uH/XgxZOU.Bp8Dt6WgplOPJqS525esIan57GVZK",
+      "id": 18
+    },
+    {
+      "email": "Muslim@gmail.ru",
+      "password": "$2a$10$.UzP5Rbh1nmfYoET4hrZb.639CdcR1DuxsNkBuDU0qhlKnSGxMqWC",
+      "id": 19
+    },
+    {
+      "email": "Max@mail.ru",
+      "password": "$2a$10$WT.6DHrTR8BLtyMqDiya..TJTUmE1et94tZtTiH/bmg4nU8d0K9Ey",
+      "id": 20
+    },
+    {
+      "email": "It-run@mail.ru",
+      "password": "$2a$10$DsUmhkEp/r4N79wYrPM5me2Rf6tNqJDF0cSnuKt7F.pabjj.46Q3K",
+      "id": 21
+    }
+  ]
+}

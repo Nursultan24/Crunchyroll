@@ -1,0 +1,38 @@
+.footer {
+  background: #1d333d;
+  padding: 30px 70px;
+  &__row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border-bottom: 1px solid #38414b;
+  }
+
+  &__list {
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+    margin: 20px 0;
+  }
+
+  &__link {
+    color: #b6b5bb;
+    &:hover{
+      color: white;
+    }
+  }
+
+
+
+  &__bottom{
+    margin: 15px 0;
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+.white {
+  color: #38414b;
+  font-size: 15px;
+  font-weight: 600;
+}

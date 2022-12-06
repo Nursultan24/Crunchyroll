@@ -1,0 +1,177 @@
+.sliderBtn {
+  height: 1500px;
+  padding: 20px 60px;
+  margin-bottom: 50px;
+  &__hover{
+    display: none;
+    position: absolute;
+    padding: 3px 0;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    background: #100e1980;
+    top: 0;
+    left: 0;
+    font-size: 20px;
+    font-family: Lato,sans-serif;
+  }
+  &__block {
+    display: flex;
+    align-items: center;
+    column-gap: 25px;
+    justify-content: center;
+
+  }
+
+  &__click {
+    border: none;
+    color: #ffffff;
+    padding: 25px;
+    background: #38414b;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+
+  &__post {
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+    column-gap: 20px;
+
+    &-img {
+      width: 45%;
+      margin-bottom: 40px;
+      position: relative;
+      &:hover{
+        .sliderBtn__hover{
+          display: flex;
+          bottom: 0;
+        }
+      }
+    }
+
+    &-poster {
+      width: 100%;
+    }
+
+    &-info {
+      width: 70%;
+      &-btn {
+        color: black;
+        background: #f47521;
+        border: none;
+        column-gap: 20px;
+        padding: 11px;
+        height: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        &:hover{
+          background: darkgoldenrod;
+        }
+      }
+
+      &-btn2 {
+        color: #f47521;
+        background: black;
+        border: 2px solid #f47521;
+        column-gap: 20px;
+        padding: 15px;
+        display: flex;
+        height: 40px;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        &:hover{
+          border: 2px solid darkgoldenrod;
+          color: darkgoldenrod;
+        }
+      }
+
+      &-click {
+        margin: 30px 0;
+        display: flex;
+        column-gap: 20px;
+      }
+    }
+
+  }
+
+  &__icon {
+    font-size: 15px;
+  }
+
+  &__icon2 {
+    font-size: 15px;
+  }
+  &-info-desc{
+    cursor: pointer;
+    margin-bottom: 15px;
+    }
+  &__ser{
+    color: #2abdbb;
+  }
+  &__desc{
+    margin-top: 15px;
+    font-weight: 500;
+
+  }
+
+  }
+
+.sub{
+  color:#a0a0a0;
+}
+.animeList{
+  padding: 0 30px;
+  text-align: center  ;
+}
+.anime__list{
+
+  &-card{
+    height: 350px;
+    cursor: pointer;
+    margin-bottom: 15px;
+  }
+  &-img{
+    width: 160px;
+    height: 250px;
+    object-fit: cover;
+  }
+  &-info{
+    &-title{
+      margin: 10px 0 10px 0;
+    }
+  }
+  &-desc{
+    margin: 20px 0 20px;
+    border-bottom: 4px solid orange;
+    padding: 0 0 20px 0;
+
+  }
+}
+
+.imgLast{
+  margin-top: 40px ;
+}
+
+img{
+  width: 100%;
+}
+
+.sliderH{
+  max-height: 850px;
+}
+
+
+
+
+
+
+
+

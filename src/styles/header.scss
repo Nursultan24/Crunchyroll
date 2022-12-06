@@ -1,0 +1,107 @@
+.header {
+  padding: 10px 20px;
+  background: #23252b;
+
+  &__nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+  }
+  &__logo {
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    column-gap: 5px;
+    font-family: Lato;
+    color: darkorange;
+    font-weight: 600;
+    transition: .5s;
+    &:hover{
+      transition: .5s;
+      color: #ffffff;
+    }
+  }
+
+  &__menu {
+    display: flex;
+    column-gap: 30px;
+    justify-content: center;
+    align-items: center;
+  }
+  &__link {
+    color: #a5a1b2;
+    transition: .5s;
+    font-size: 16px;
+    position: relative;
+    font-family:Lato,sans-serif;
+
+    &:hover {
+      transition: .5s;
+      color: #ffffff;
+      .header__item-down {
+        display: flex;
+      }
+    }
+    &.active {
+      color: #ffffff;
+    }
+  }
+  &__item-down {
+    transition: .5s;
+    display: none;
+    max-width: 1300px;
+    width: 100%;
+    padding: 30px 20px 20px;
+    background: #1f1b2e;
+    position: absolute;
+    top: 69px;
+    left: 20px;
+    z-index: 99;
+  }
+  &__right {
+    display: flex;
+    column-gap: 25px;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: .5s;
+    &-icons{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      column-gap: 20px;
+      font-size: 25px;
+
+    }
+    &-pay{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      &-crown{
+        margin: 0 0 0 20px;
+        font-size: 12px;
+        color: orange;
+        &-text{
+          color: #ffffff;
+        }
+      }
+    }
+  }
+  &__search {
+    border: none;
+    outline: none;
+    background: transparent;
+    &::placeholder {
+      color: #a5a1b2;
+      font-size: 17px;
+      font-weight: 400;
+    }
+  }
+  &__auth {
+    display: flex;
+    align-items: center;
+    column-gap: 5px;
+  }
+}
