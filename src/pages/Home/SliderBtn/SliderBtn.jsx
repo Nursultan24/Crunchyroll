@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import {FiPlay} from 'react-icons/fi'
 import {BsBookmark} from "react-icons/bs"
 import {Link, NavLink} from "react-router-dom"
@@ -9,24 +9,18 @@ import "swiper/css/pagination";
 import "swiper/css/navigation";
 
 import { Pagination, Navigation } from "swiper";
-import {useSelector} from "react-redux";
 
 
 
-const SliderBtn = () => {
+const SliderBtn = ({status, error, data}) => {
 
-    const {status, error, data} = useSelector((store) => store.anime)
+
+
 
     return (
         <section className='sliderBtn'>
             <div className="container">
-            <div className="sliderBtn__block">
-                <button className='sliderBtn__click'>Моя геройская академия</button>
-                <button className='sliderBtn__click'>Я злодейка, <br/> поэтому должна...</button>
-                <button className='sliderBtn__click'>Боруто: Новое поколение</button>
-                <button className='sliderBtn__click'>JUJUTSU KAISEN 0</button>
-                <button className='sliderBtn__click'>DEMON SLAYER</button>
-            </div>
+
 
                 <div className="sliderBtn__post">
                         <div className="sliderBtn__post-img">
@@ -49,7 +43,7 @@ const SliderBtn = () => {
 
                 </div>
                 <div className="img">
-                    <img src="https://static.crunchyroll.com/fms/desktop_large/1050x350/d930be54-ae13-4638-b3a4-e4fe452fd770.png" alt=""/>
+                    <img className='sliderBtn__img' src="https://static.crunchyroll.com/fms/desktop_large/1050x350/d930be54-ae13-4638-b3a4-e4fe452fd770.png" alt=""/>
                 </div>
                 <div className="sliderBtn__post">
                     <div className="sliderBtn__post-img">
@@ -86,9 +80,10 @@ const SliderBtn = () => {
                         modules={[Pagination, Navigation]}
                         className="animeList"
                     >
-                        {   data.map((item) => (
-                            <SwiperSlide>
-                                <div className="anime__list-card">
+                        {
+                           data.map((item) => (
+                            <SwiperSlide >
+                                <div key={item.id} className="anime__list-card">
                                     <Link to={`/watch/${item.id}`}>
                                         <img className='anime__list-img' src={item.series} alt=""/>
                                         <div className="anime__list-info">

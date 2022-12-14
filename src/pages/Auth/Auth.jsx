@@ -39,9 +39,9 @@ const Auth = () => {
 
     return (
         <section>
-            <ul className="header__menu">
+            <ul className="auth__header">
                 <Link to={'/'}>
-                    <div className="header__logo">
+                    <div className="auth__logo">
                         <FaNimblr/>
                         crunchyroll
                     </div>

@@ -6,20 +6,23 @@ import AnimeList from "./AnimeList/AnimeList";
 import Update from "./Update/Update";
 import LastSlider from "./LastSlider/LastSlider";
 import {getAnime} from "../../redux/reducers/anime";
-import {useDispatch} from "react-redux";
+import {useDispatch, useSelector} from "react-redux";
 
 const Home = () => {
 
     const dispatch = useDispatch()
 
-    useEffect(() => {
+    const {status, error, data} = useSelector((store) => store.anime)
+
+    useEffect(()=>{
         dispatch(getAnime())
     },[])
+
 
     return (
         <div>
             <Slider/>
-            <SliderBtn/>
+            <SliderBtn data={data} error={error} status={status}/>
             <News/>
             <AnimeList/>
             <Update/>

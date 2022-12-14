@@ -5,7 +5,6 @@ import {AiOutlinePlus} from "react-icons/ai"
 import {FiPlay} from 'react-icons/fi'
 import {useSelector,useDispatch} from "react-redux";
 import {useParams,Link} from 'react-router-dom'
-import {getAnime} from "../../redux/reducers/anime";
 import {getOneAnime} from "../../redux/reducers/oneAnime";
 
 
@@ -37,6 +36,7 @@ const Watch = () => {
                             <button className='sliderBtn__post-info-btn2'><p className='sliderBtn__icon2'><BsBookmark/></p> Добавить в смотреть позже</button>
                             <button className='watch__left-btn2'><p className='watch__icons'><AiOutlinePlus/></p>ДОБАВИТЬ В CRUNCHY-СПИСОК</button>
                         </div>
+                        <div className="watch__left-genre">Жанр: {product.genre}</div>
                         <p className='watch__desc'>{product.description}</p>
                         <div className="watch__studios">
                             <p>Студия</p>
@@ -56,55 +56,71 @@ const Watch = () => {
                 <div className="watch__series">
                     <h3 className='watch__series-title'>S1 - {product.title} 1 сезон</h3>
                     <div className="watch__row">
-                        <div className="watch__card" >
-                            <img  className='watch__card-img' src={product.poster} alt=""/>
-                            <p className='watch__card-title'>{product.title}</p>
-                            <h4 className='watch__card-desc'>1сезон 1серия Мидория: Начало</h4>
-                            <p className='watch__card-sub'>Субтитры</p>
-                        </div>
-                        <div className="watch__card">
-                            <img  className='watch__card-img' src={product.poster} alt=""/>
-                            <p className='watch__card-title'>{product.title}</p>
-                            <h4 className='watch__card-desc'>1сезон 1серия Мидория: Начало</h4>
-                            <p className='watch__card-sub'>Субтитры</p>
-                        </div>
-                        <div className="watch__card">
-                            <img  className='watch__card-img' src={product.poster} alt=""/>
-                            <p className='watch__card-title'>{product.title}</p>
-                            <h4 className='watch__card-desc'>1сезон 1серия Мидория: Начало</h4>
-                            <p className='watch__card-sub'>Субтитры</p>
-                        </div>
-                        <div className="watch__card">
-                            <img  className='watch__card-img' src={product.poster} alt=""/>
-                            <p className='watch__card-title'>{product.title}</p>
-                            <h4 className='watch__card-desc'>1сезон 1серия Мидория: Начало</h4>
-                            <p className='watch__card-sub'>Субтитры</p>
-                        </div>
-                        <div className="watch__card">
-                            <img  className='watch__card-img' src={product.poster} alt=""/>
-                            <p className='watch__card-title'>{product.title}</p>
-                            <h4 className='watch__card-desc'>1сезон 1серия Мидория: Начало</h4>
-                            <p className='watch__card-sub'>Субтитры</p>
-                        </div>
-                        <div className="watch__card">
-                            <img  className='watch__card-img' src={product.poster} alt=""/>
-                            <p className='watch__card-title'>{product.title}</p>
-                            <h4 className='watch__card-desc'>1сезон 1серия Мидория: Начало</h4>
-                            <p className='watch__card-sub'>Субтитры</p>
-                        </div>
-                        <div className="watch__card">
-                            <img  className='watch__card-img' src={product.poster} alt=""/>
-                            <p className='watch__card-title'>{product.title}</p>
-                            <h4 className='watch__card-desc'>1сезон 1серия Мидория: Начало</h4>
-                            <p className='watch__card-sub'>Субтитры</p>
-                        </div>
-                        <div className="watch__card">
-                            <img  className='watch__card-img' src={product.poster} alt=""/>
-                            <p className='watch__card-title'>{product.title}</p>
-                            <h4 className='watch__card-desc'>1сезон 1серия Мидория: Начало</h4>
-                            <p className='watch__card-sub'>Субтитры</p>
-                        </div>
+                            <div className="watch__card" >
+                                <Link to={'/video'}>
+                                    <img  className='watch__card-img' src={product.poster} alt=""/>
+                                    <p className='watch__card-title'>{product.title}</p>
+                                    <h4 className='watch__card-desc'>1сезон 1серия Мидория: Начало</h4>
+                                    <p className='watch__card-sub'>Субтитры</p>
+                                </Link>
 
+                            </div>
+                            <div className="watch__card">
+                                <Link to={'/video'}>
+                                <img  className='watch__card-img' src={product.episode} alt=""/>
+                                <p className='watch__card-title'>{product.title}</p>
+                                <h4 className='watch__card-desc'>1сезон 2серия Мидория: Начало</h4>
+                                <p className='watch__card-sub'>Субтитры</p>
+                                </Link>
+                            </div>
+                            <div className="watch__card">
+                                <Link to={'/video'}>
+                                <img  className='watch__card-img' src={product.poster} alt=""/>
+                                <p className='watch__card-title'>{product.title}</p>
+                                <h4 className='watch__card-desc'>1сезон 3серия Мидория: Начало</h4>
+                                <p className='watch__card-sub'>Субтитры</p>
+                                </Link>
+                            </div>
+                            <div className="watch__card">
+                                <Link to={'/video'}>
+                                <img  className='watch__card-img' src={product.episode} alt=""/>
+                                <p className='watch__card-title'>{product.title}</p>
+                                <h4 className='watch__card-desc'>1сезон 4серия Мидория: Начало</h4>
+                                <p className='watch__card-sub'>Субтитры</p>
+                                </Link>
+                            </div>
+                            <div className="watch__card">
+                                <Link to={'/video'}>
+                                <img  className='watch__card-img' src={product.poster} alt=""/>
+                                <p className='watch__card-title'>{product.title}</p>
+                                <h4 className='watch__card-desc'>1сезон 5серия Мидория: Начало</h4>
+                                <p className='watch__card-sub'>Субтитры</p>
+                                </Link>
+                            </div>
+                            <div className="watch__card">
+                                <Link to={'/video'}>
+                                <img  className='watch__card-img' src={product.episode} alt=""/>
+                                <p className='watch__card-title'>{product.title}</p>
+                                <h4 className='watch__card-desc'>1сезон 6серия Мидория: Начало</h4>
+                                <p className='watch__card-sub'>Субтитры</p>
+                                </Link>
+                            </div>
+                            <div className="watch__card">
+                                <Link to={'/video'}>
+                                <img  className='watch__card-img' src={product.poster} alt=""/>
+                                <p className='watch__card-title'>{product.title}</p>
+                                <h4 className='watch__card-desc'>1сезон 7серия Мидория: Начало</h4>
+                                <p className='watch__card-sub'>Субтитры</p>
+                                </Link>
+                            </div>
+                            <div className="watch__card">
+                                <Link to={'/video'}>
+                                <img  className='watch__card-img' src={product.episode} alt=""/>
+                                <p className='watch__card-title'>{product.title}</p>
+                                <h4 className='watch__card-desc'>1сезон 8серия Мидория: Начало</h4>
+                                <p className='watch__card-sub'>Субтитры</p>
+                                </Link>
+                            </div>
                     </div>
                 </div>
             </div>

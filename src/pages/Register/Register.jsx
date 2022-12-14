@@ -39,9 +39,9 @@ const Register = () => {
 
     return (
         <section>
-            <ul className="header__menu">
+            <ul className="auth__header">
                 <Link to={'/'}>
-                    <div className="header__logo">
+                    <div className="auth__logo">
                         <FaNimblr/>
                         crunchyroll
                     </div>
@@ -53,7 +53,7 @@ const Register = () => {
                 <div className="auth__block">
 
                     <h2 className='auth__title'>Регистрация</h2>
-                    <form onSubmit={handleSubmit(onSubmit)} noValidate className=" register__form">
+                    <form onSubmit={handleSubmit(onSubmit)} noValidate className=" register__form reg__block">
 
                         <div className="auth__form-block">
                             <input {...register('email',{

@@ -39,7 +39,8 @@ const Update = () => {
                     className="animeList"
                 >
                     {   data.map((item) => (
-                        <SwiperSlide>
+                        <SwiperSlide key={item.id}>
+
                             <div className="anime__list-card">
                                 <Link to={`/watch/${item.id}`}>
                                     <img className='anime__list-img' src={item.series} alt=""/>

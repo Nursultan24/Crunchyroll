@@ -1,12 +1,21 @@
 
 .slideSmall{
   background: url("../assets/Small.png")no-repeat;
-  background-color: #2abdbb;
-  height: 400px;
+  background-color:#1f7d7e;
+  height: 470px;
+  padding: 10px 200px;
 
+  &__title{
+    color: #1c1519;
 
+  }
+
+  &__desc{
+    color: #1c1519;
+    margin: 15px 0;
+  }
   &__card{
-    height: 350px;
+    height: 370px;
     cursor: pointer;
     margin-bottom: 15px;
 
@@ -18,6 +27,10 @@
     &-info{
       &-title{
         margin: 10px 0 10px 0;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        width: 88%;
+        white-space: nowrap;
       }
       &-desc{
         margin: 20px 0 20px;
@@ -32,9 +45,19 @@
   touch-action: pan-y;
   padding: 0 40px;
 }
-.swiper-button-next, .swiper-rtl .swiper-button-prev {
-  right: 10px;
+.swiperLast .swiper-button-next, .swiper-rtl .swiper-button-prev {
+  right:30px;
   left: auto;
+  color: black;
 }
 
+.swiperLast .swiper-button-prev, .swiper-rtl .swiper-button-next {
+  left: 10px;
+  right: auto;
+  color: black;
+}
+
+.lastSub{
+  color: greenyellow;
+}
 

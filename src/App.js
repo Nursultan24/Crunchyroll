@@ -15,6 +15,8 @@ import {useEffect} from "react";
 import {useDispatch} from "react-redux";
 import {loginAccount} from "./redux/reducers/user";
 import NewsFirst from "./pages/NewsFirst/NewsFirst";
+import Search from "./pages/Search/Search";
+import Catalog from "./pages/Catalog/Catalog";
 
 
 function App() {
@@ -31,6 +33,7 @@ function App() {
     <div className="App">
       <Routes>
         <Route path={''} element={<Layout/>}>
+
             <Route path={''} element={<Home/>}/>
             <Route path={'manga'} element={<Manga/>}/>
             <Route path={'terms'} element={<Terms/>}/>
@@ -40,6 +43,8 @@ function App() {
             <Route path={'watch/:id'} element={<Watch/>}/>
             <Route path={'video'} element={<Video/>}/>
             <Route path={'newsFirst'} element={<NewsFirst/>}/>
+            <Route path={'search'} element={<Search/>}/>
+            <Route path={'catalog'} element={<Catalog/>}/>
 
 
         </Route>

@@ -72,7 +72,6 @@
       justify-content: center;
       align-items: center;
       column-gap: 20px;
-      font-size: 25px;
 
     }
     &-pay{
@@ -93,6 +92,7 @@
     border: none;
     outline: none;
     background: transparent;
+    width: 150px;
     &::placeholder {
       color: #a5a1b2;
       font-size: 17px;

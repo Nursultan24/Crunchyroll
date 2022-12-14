@@ -23,6 +23,15 @@ body {
   margin: 0 auto;
 }
 
+.container__header {
+  max-width: 1300px;
+  padding: 0 20px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+
+
 
 
 
@@ -39,3 +48,8 @@ body {
 @import "auth";
 @import "watch";
 @import "video";
+@import "search";
+@import "animeCard";
+@import "catalog";
+@import "manga";
+

@@ -8,7 +8,10 @@
       "poster": "https://www.crunchyroll.com/imgsrv/display/thumbnail/320x180/catalog/crunchyroll/06fc92ad23598cf0baba61d9e7dcc46e.jpe",
       "studios": "Toho",
       "img": "https://www.crunchyroll.com/imgsrv/display/thumbnail/1200x675/catalog/crunchyroll/f0dfabec20d9f3ce33add1a92d381c70.jpe",
-      "series": "https://www.crunchyroll.com/imgsrv/display/thumbnail/240x360/catalog/crunchyroll/7e023c55c6cb63b2ecbb31b6aae9bf12.jpe"
+      "video": "https://r210105.kujo-jotaro.com/boku-no-hero-academia/1/1.720.d709fea72de300a8.mp4?hash1=7c2ae46cf4854b94ce62e3f8fd40c499&hash2=be73de93e0edffde621ecdb40ef3b963",
+      "series": "https://www.crunchyroll.com/imgsrv/display/thumbnail/240x360/catalog/crunchyroll/7e023c55c6cb63b2ecbb31b6aae9bf12.jpe",
+      "year": "2020",
+      "episode": "https://gen.jut.su/uploads/preview/52/0/0/1_1538821653.jpg"
     },
     {
       "id": 2,
@@ -18,7 +21,10 @@
       "poster": "https://www.crunchyroll.com/imgsrv/display/thumbnail/320x180/catalog/crunchyroll/912c6649b95f7303fc999994388fc3c7.jpe",
       "studios": "Toho",
       "img": "https://www.crunchyroll.com/imgsrv/display/thumbnail/1200x675/catalog/crunchyroll/5a9cac4da58ec396b489713de0e10144.jpe",
-      "series": "https://www.crunchyroll.com/imgsrv/display/thumbnail/240x360/catalog/crunchyroll/689e2efcf9f192ba6c0f7a538ee99027.jpe"
+      "video": "https://r320101.kujo-jotaro.com/spy-family/1.720.f2ba2b5716f1db2f.mp4?hash1=28ccd93bb7a41734eb956edf42fd1f01&hash2=cfb138f42ab38e158465d1804bcf7862",
+      "series": "https://www.crunchyroll.com/imgsrv/display/thumbnail/240x360/catalog/crunchyroll/689e2efcf9f192ba6c0f7a538ee99027.jpe",
+      "year": "2022",
+      "episode": "https://gen.jut.su/uploads/preview/840/0/0/1_1649605000.jpg"
     },
     {
       "id": 3,
@@ -28,7 +34,10 @@
       "poster": "https://www.crunchyroll.com/imgsrv/display/thumbnail/320x180/catalog/crunchyroll/c7e76c35911e36d63a9f52111eb62520.jpe",
       "studios": "MBS",
       "img": "https://www.crunchyroll.com/imgsrv/display/thumbnail/1200x675/catalog/crunchyroll/edc041f884628bad7f47e4597e20be23.jpe",
-      "series": "https://www.crunchyroll.com/imgsrv/display/thumbnail/240x360/catalog/crunchyroll/a2e69dc8c94b793acd2da2a0ac2794d4.jpe"
+      "video": "https://r270202.kujo-jotaro.com/akuyaku-reijou/1.720.b1d1acf68ffa274c.mp4?hash1=cb2150de1511667f46de8c9107529bbe&hash2=b51efcc261abe31bbd0a5784ed18adcf",
+      "series": "https://www.crunchyroll.com/imgsrv/display/thumbnail/240x360/catalog/crunchyroll/a2e69dc8c94b793acd2da2a0ac2794d4.jpe",
+      "year": "2021",
+      "episode": "https://gen.jut.su/uploads/preview/872/0/0/1_1664197724.jpg"
     },
     {
       "id": 4,
@@ -38,8 +47,12 @@
       "poster": "https://www.crunchyroll.com/imgsrv/display/thumbnail/320x180/catalog/crunchyroll/a36f61c64e3cbf4a825ac08d7ee52bd0.jpe",
       "studios": "TV TOKYO",
       "img": "https://www.crunchyroll.com/imgsrv/display/thumbnail/1200x675/catalog/crunchyroll/0134972d07375f03bf83813f1d56870d.jpe",
-      "series": "https://www.crunchyroll.com/imgsrv/display/thumbnail/240x360/catalog/crunchyroll/c144fe4a2d2a96a173a92fcf6850fd98.jpe"
+      "video": "https://r320101.kujo-jotaro.com/naruto/3/1.720.810df6f6f558c9e0.mp4?hash1=ac06e81caa6e85dcc840971accae71f1&hash2=941e4dad28f5a7d190353affd70b3c40",
+      "series": "https://www.crunchyroll.com/imgsrv/display/thumbnail/240x360/catalog/crunchyroll/c144fe4a2d2a96a173a92fcf6850fd98.jpe",
+      "year": "2020",
+      "episode": "https://gen.jut.su/uploads/preview/9991/0/3/2_1520794529.jpg"
     },
+
     {
       "id": 5,
       "title": "МАГИЧЕСКАЯ БИТВА",
@@ -48,7 +61,10 @@
       "poster": "https://www.crunchyroll.com/imgsrv/display/thumbnail/320x180/catalog/crunchyroll/1ef057fb7fd088de798cc4a6571cc4a2.jpe",
       "studios": "Toho",
       "img": "https://www.crunchyroll.com/imgsrv/display/thumbnail/1200x675/catalog/crunchyroll/98662d1c546c4e74de58fbc52679ac6c.jpe",
-      "series": "https://www.crunchyroll.com/imgsrv/display/thumbnail/240x360/catalog/crunchyroll/47efe819e954f83cf0b8e022c39488ce.jpe"
+      "video": "https://r320101.kujo-jotaro.com/jujutsu-kaisen/1.720.88c6fdc84857fa83.mp4?hash1=b0c20ad0f4f31184a9e65364984bd699&hash2=5ceb56c01cc6c52b0f98cff3fa3a9d60",
+      "series": "https://www.crunchyroll.com/imgsrv/display/thumbnail/240x360/catalog/crunchyroll/47efe819e954f83cf0b8e022c39488ce.jpe",
+      "year": "2019",
+      "episode": "https://gen.jut.su/uploads/preview/598/0/0/1_1602192811.jpg"
     },
     {
       "id": 6,
@@ -58,7 +74,10 @@
       "poster": "https://www.crunchyroll.com/imgsrv/display/thumbnail/320x180/catalog/crunchyroll/9a2089c84a76c3db3e51d0277f0433c9.jpe",
       "studios": "Aniplex of America",
       "img": "https://www.crunchyroll.com/imgsrv/display/thumbnail/1200x675/catalog/crunchyroll/f7adcedd1d7c53ae18d851003a3cfae4.jpe",
-      "series": "https://www.crunchyroll.com/imgsrv/display/thumbnail/240x360/catalog/crunchyroll/d48d4a62b0ac6381c87bd040b69b0a89.jpe"
+      "video": "https://r320101.kujo-jotaro.com/kimetsu-no-yaiba/1.720.71ac7e43fab0893a.mp4?hash1=b7d9efc38f6d273b7b8dac956573eff0&hash2=885ef438a3d77814c38ac2877153b6bc",
+      "series": "https://www.crunchyroll.com/imgsrv/display/thumbnail/240x360/catalog/crunchyroll/d48d4a62b0ac6381c87bd040b69b0a89.jpe",
+      "year": "2019",
+      "episode": "https://gen.jut.su/uploads/preview/242/0/0/1_1554707039.jpg"
     },
     {
       "id": 7,
@@ -68,7 +87,10 @@
       "poster": "https://www.crunchyroll.com/imgsrv/display/thumbnail/320x180/catalog/crunchyroll/3ef3d438505584690fbf55603c8ce933.jpeg",
       "studios": "Aniplex of America",
       "img": "https://www.crunchyroll.com/imgsrv/display/thumbnail/1200x675/catalog/crunchyroll/69a055ceed91e4513bf8b986f3069381.jpeg",
-      "series": "https://www.crunchyroll.com/imgsrv/display/thumbnail/240x360/catalog/crunchyroll/efa8f160c660955cf5a510485cef6ea1.jpeg"
+      "video": "https://r270202.kujo-jotaro.com/vanitas-no-carte/1.720.4229020e596ccc2d.mp4?hash1=9a19fd0030a3ab0bfdeed67893c0e6e7&hash2=c7b07e089783bbb6d0a3a457bc5e6c21",
+      "series": "https://www.crunchyroll.com/imgsrv/display/thumbnail/240x360/catalog/crunchyroll/efa8f160c660955cf5a510485cef6ea1.jpeg",
+      "year": "2021",
+      "episode": "https://gen.jut.su/uploads/preview/771/0/0/1_1625478190.jpg"
     },
     {
       "id": 8,
@@ -78,7 +100,10 @@
       "poster": "https://www.crunchyroll.com/imgsrv/display/thumbnail/320x180/catalog/crunchyroll/3ec3f4f61c4acbad335e8010a4a782f8.jpeg",
       "studios": "Kodansha Ltd.",
       "img": "https://www.crunchyroll.com/imgsrv/display/thumbnail/1200x675/catalog/crunchyroll/8581ee003684720b6c82bece6f43c104.jpeg",
-      "series": "https://www.crunchyroll.com/imgsrv/display/thumbnail/240x360/catalog/crunchyroll/69a132a8aa8264b2b696387d3207fae5.jpeg"
+      "video": "https://r270202.kujo-jotaro.com/orient/1.720.841c92cf82298bc6.mp4?hash1=08b1130777712c4130a2ef166c9eb9c9&hash2=b3538cefd73689ee760b15da325db576",
+      "series": "https://www.crunchyroll.com/imgsrv/display/thumbnail/240x360/catalog/crunchyroll/69a132a8aa8264b2b696387d3207fae5.jpeg",
+      "year": "2018",
+      "episode": "https://gen.jut.su/uploads/preview/809/0/0/3_1642711609.jpg"
     },
     {
       "id": 9,
@@ -88,7 +113,10 @@
       "poster": "https://www.crunchyroll.com/imgsrv/display/thumbnail/320x180/catalog/crunchyroll/a58b5a8f61b720b95b5615e488665630.jpeg",
       "studios": "Happinet Co., Ltd.",
       "img": "https://www.crunchyroll.com/imgsrv/display/thumbnail/1200x675/catalog/crunchyroll/52c137e4b0355199c8e23eeb0f846c26.jpeg",
-      "series": "https://www.crunchyroll.com/imgsrv/display/thumbnail/240x360/catalog/crunchyroll/085af105e7599a59da03ab47750a36e5.jpeg"
+      "video": "https://r410301.kujo-jotaro.com/honzuki/1.720.a2634c807c958cae.mp4?hash1=a9cd85fcfd599684cf16e7058bdd3388&hash2=f45de4360e4f6451817f1ec34b68f43c",
+      "series": "https://www.crunchyroll.com/imgsrv/display/thumbnail/240x360/catalog/crunchyroll/085af105e7599a59da03ab47750a36e5.jpeg",
+      "year": "2018",
+      "episode": "https://gen.jut.su/uploads/preview/359/0/0/3_1572332379.jpg"
     },
     {
       "id": 10,
@@ -98,7 +126,10 @@
       "poster": "https://www.crunchyroll.com/imgsrv/display/thumbnail/320x180/catalog/crunchyroll/241df0eb28d4df0ad7ef6ee72bb5e75b.jpeg",
       "studios": "Kadokawa Pictures Inc.",
       "img": "https://www.crunchyroll.com/imgsrv/display/thumbnail/1200x675/catalog/crunchyroll/5b65797ccc7305b99cd8f1922d66d777.jpeg",
-      "series": "https://www.crunchyroll.com/imgsrv/display/thumbnail/240x360/catalog/crunchyroll/59dd9785564f46c3cf2a18b38149f5a1.jpeg"
+      "video": "https://r320101.kujo-jotaro.com/overlord/1/1.720.dfe2c50996360300.mp4?hash1=2b1f8aa8c7cf6162d981ed9b11714e28&hash2=676cc8ff5cdaef7adc4937a7906b3cd3",
+      "series": "https://www.crunchyroll.com/imgsrv/display/thumbnail/240x360/catalog/crunchyroll/59dd9785564f46c3cf2a18b38149f5a1.jpeg",
+      "year": "2017",
+      "episode": "https://gen.jut.su/uploads/preview/62/0/0/2_1541424151.jpg"
     },
     {
       "id": 11,
@@ -108,7 +139,10 @@
       "poster": "https://www.crunchyroll.com/imgsrv/display/thumbnail/320x180/catalog/crunchyroll/aebcfb8f0c30a78218463626f228e433.jpe",
       "studios": "Kodansha Ltd.",
       "img": "https://www.crunchyroll.com/imgsrv/display/thumbnail/1200x675/catalog/crunchyroll/d46bbba875a6d0ffef9d3025fb55dd5f.jpe",
-      "series": "https://www.crunchyroll.com/imgsrv/display/thumbnail/240x360/catalog/crunchyroll/9d559e801c720bc2743cbc44793753bf.jpe"
+      "video": "https://r330101.kujo-jotaro.com/blue-lock/9.720.e0465fbba55d9edf.mp4?hash1=e1d1d4c4e4a1b90a63763f31aff20792&hash2=58d90894a82936b21945e0c1371695be",
+      "series": "https://www.crunchyroll.com/imgsrv/display/thumbnail/240x360/catalog/crunchyroll/9d559e801c720bc2743cbc44793753bf.jpe",
+      "year": "2022",
+      "episode": "https://gen.jut.su/uploads/preview/882/0/0/9_1670292638.jpg"
     }
   ],
   "users": [

@@ -1,0 +1,31 @@
+.manga{
+  padding: 20px ;
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 15px;
+  row-gap: 10px;
+  justify-content: center;
+  &__card{
+    width: calc(20% - 25px);
+    text-align: center;
+    padding: 5px;
+    transition: .5s;
+    &:hover{
+      background-color: gray;
+      transition: .5s;
+    }
+
+    &-img{
+      margin-bottom: 10px;
+      width: 160px;
+      height: 250px;
+      object-fit: cover;
+    }
+    &-title{
+      color: aquamarine;
+    }
+    &-link{
+      color: #f47521;
+    }
+  }
+}

@@ -1,11 +1,10 @@
 import {createAsyncThunk, createSlice} from "@reduxjs/toolkit";
-import axios from "axios";
-
+import axios from "../../utils/axios";
 export const getAnime = createAsyncThunk(
     'anime/getAnime',
-    async (_,{rejectWithValue })=>{
+    async (filter,{rejectWithValue })=>{
         try {
-            const res = await axios('http://localhost:8080/anime')
+            const res = await axios(`/anime?${filter?.genre.length ? 'genre=' + filter.genre + '&' : ''}${filter?.year !== '' ? 'year=' + filter?.year + '&' : ''}${filter?.search !== '' ? 'title_like=' + filter.search : ''}`);
             if (res.statusText !== 'OK'){
                 throw new Error('Server error !')
             }
@@ -21,12 +20,24 @@ const animeSlice = createSlice({
     initialState: {
         data: [],
         dataLength: 0,
-        filter: {},
+        filter: {
+            search: '',
+            genre: '',
+            year: ''
+        },
         status: '',
         error:''
     },
     reducers: {
-
+        changeGenre: (state,action) => {
+            state.filter.genre = action.payload
+        },
+        changeSearch: (state, action) => {
+            state.filter.search = action.payload
+        },
+        changeYear: (state,action) => {
+            state.filter.year = action.payload
+        }
     },
     extraReducers: {
         [getAnime.pending] : (state,action) => {
@@ -49,5 +60,5 @@ const animeSlice = createSlice({
 
 })
 
-export const {} = animeSlice.actions
+export const {changeSearch,changeGenre,changeYear} = animeSlice.actions
 export default animeSlice.reducer

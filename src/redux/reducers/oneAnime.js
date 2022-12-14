@@ -1,11 +1,11 @@
 import {createAsyncThunk, createSlice} from "@reduxjs/toolkit";
-import axios from "axios";
+import axios from "../../utils/axios";
 
 export const getOneAnime =  createAsyncThunk(
     'oneAnime/getOneAnime',
     async (id,{rejectWithValue}) => {
         try {
-            const res = await axios(`http://localhost:8080/anime/${id}`)
+            const res = await axios(`/anime/${id}`)
             if (res.statusText !== 'OK') {
                 throw new Error('Server error !')
             }

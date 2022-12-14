@@ -1,7 +1,10 @@
 .sliderBtn {
-  height: 1500px;
+  height: 1300px;
   padding: 20px 60px;
   margin-bottom: 50px;
+  &__img{
+    margin: 15px 0;
+  }
   &__hover{
     display: none;
     position: absolute;
@@ -34,17 +37,16 @@
     justify-content: center;
     align-items: center;
     cursor: pointer;
+    width: 250px;
   }
 
   &__post {
     display: flex;
     align-items: center;
-    margin-top: 50px;
     column-gap: 20px;
 
     &-img {
       width: 45%;
-      margin-bottom: 40px;
       position: relative;
       &:hover{
         .sliderBtn__hover{
@@ -59,7 +61,7 @@
     }
 
     &-info {
-      width: 70%;
+      width: 60%;
       &-btn {
         color: black;
         background: #f47521;
@@ -71,6 +73,7 @@
         justify-content: center;
         align-items: center;
         cursor: pointer;
+
         &:hover{
           background: darkgoldenrod;
         }
@@ -94,7 +97,7 @@
       }
 
       &-click {
-        margin: 30px 0;
+        margin: 20px 0 0;
         display: flex;
         column-gap: 20px;
       }
@@ -134,7 +137,7 @@
 .anime__list{
 
   &-card{
-    height: 350px;
+    height: 370px;
     cursor: pointer;
     margin-bottom: 15px;
   }
@@ -143,9 +146,16 @@
     height: 250px;
     object-fit: cover;
   }
+  &-title{
+    margin: 10px 0;
+  }
   &-info{
     &-title{
       margin: 10px 0 10px 0;
+      text-overflow: ellipsis;
+      overflow: hidden;
+      width: 88%;
+      white-space: nowrap;
     }
   }
   &-desc{
@@ -167,6 +177,8 @@ img{
 .sliderH{
   max-height: 850px;
 }
+
+
 
 
 
