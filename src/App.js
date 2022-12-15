@@ -17,6 +17,7 @@ import {loginAccount} from "./redux/reducers/user";
 import NewsFirst from "./pages/NewsFirst/NewsFirst";
 import Search from "./pages/Search/Search";
 import Catalog from "./pages/Catalog/Catalog";
+import Favorites from "./pages/Favorites/Favorites";
 
 
 function App() {
@@ -45,6 +46,7 @@ function App() {
             <Route path={'newsFirst'} element={<NewsFirst/>}/>
             <Route path={'search'} element={<Search/>}/>
             <Route path={'catalog'} element={<Catalog/>}/>
+            <Route path={'favorites'} element={<Favorites/>}/>
 
 
         </Route>

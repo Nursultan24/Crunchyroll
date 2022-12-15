@@ -18,14 +18,6 @@ const Footer = () => {
             <div className="container">
                 <div className="footer__row">
                     <ul className="footer__list">
-                        <li className="footer__list-item"><Link className="footer__link white">Навигация</Link></li>
-                        <li className="footer__list-item"><Link className="footer__link">Популярное</Link></li>
-                        <li className="footer__list-item"><Link className="footer__link">Сезоны</Link></li>
-                        <li className="footer__list-item"><Link className="footer__link">Каталог манги</Link></li>
-                        <li className="footer__list-item"><Link className="footer__link">Календарь релизов</Link></li>
-                        <li className="footer__list-item"><Link className="footer__link">Новости</Link></li>
-                    </ul>
-                    <ul className="footer__list">
                         <li className="footer__list-item"><Link className="footer__link white">Связаться с нами</Link></li>
                         <li className="footer__list-item"><a href={'https://www.youtube.com/user/crunchyroll'} className="footer__link"><FiYoutube/> Youtube</a></li>
                         <li className="footer__list-item"><a href={'https://www.facebook.com/Crunchyroll/'} className="footer__link"><AiFillFacebook/> Facebook</a></li>

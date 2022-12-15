@@ -6,14 +6,21 @@ import {FiPlay} from 'react-icons/fi'
 import {useSelector,useDispatch} from "react-redux";
 import {useParams,Link} from 'react-router-dom'
 import {getOneAnime} from "../../redux/reducers/oneAnime";
+import {addFavorites,removeFavorites} from "../../redux/reducers/favorites";
 
 
 const Watch = () => {
 
     const dispatch = useDispatch()
+
     const  params = useParams();
 
     const {status, error, product} = useSelector((store) => store.oneAnime)
+    const {data} = useSelector((store) => store.favorites)
+
+    localStorage.setItem('favorites',JSON.stringify(data))
+    localStorage.getItem('favorites')
+
 
     useEffect(()=> {
         dispatch(getOneAnime(params.id))
@@ -33,7 +40,7 @@ const Watch = () => {
                         <h1 className='watch__left-title'>{product.title}</h1>
                         <p>4 видео -Субтитры</p>
                         <div className="watch__left-btn">
-                            <button className='sliderBtn__post-info-btn2'><p className='sliderBtn__icon2'><BsBookmark/></p> Добавить в смотреть позже</button>
+                            <button className='sliderBtn__post-info-btn2' onClick={()=> dispatch(addFavorites(product))}><p className='sliderBtn__icon2'><BsBookmark/></p> Добавить в смотреть позже</button>
                             <button className='watch__left-btn2'><p className='watch__icons'><AiOutlinePlus/></p>ДОБАВИТЬ В CRUNCHY-СПИСОК</button>
                         </div>
                         <div className="watch__left-genre">Жанр: {product.genre}</div>

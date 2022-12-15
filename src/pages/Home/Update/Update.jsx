@@ -39,17 +39,15 @@ const Update = () => {
                     className="animeList"
                 >
                     {   data.map((item) => (
-                        <SwiperSlide key={item.id}>
-
-                            <div className="anime__list-card">
+                        <SwiperSlide>
+                            <div className="slideSmall-card">
                                 <Link to={`/watch/${item.id}`}>
-                                    <img className='anime__list-img' src={item.series} alt=""/>
-                                    <div className="anime__list-info">
-                                        <h3 className='anime__list-info-title'>{item.title}</h3>
-                                        <p className='sliderBtn__post-info sub'><span className='sliderBtn__ser'>Сериал</span> - Суб. | Озв.</p>
+                                    <img className='slideSmall__card-img' src={item.series} alt=""/>
+                                    <div className="slideSmall__card-info">
+                                        <h3 className='slideSmall__card-info-title'>{item.title}</h3>
+                                        <p className='slideSmall__card-info sub'><span className='sliderBtn__ser lastSub'>Сериал</span> - Суб. | Озв.</p>
                                     </div>
                                 </Link>
-
                             </div>
                         </SwiperSlide>
                     ))

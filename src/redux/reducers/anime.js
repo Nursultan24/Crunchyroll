@@ -25,6 +25,7 @@ const animeSlice = createSlice({
             genre: '',
             year: ''
         },
+        favorites: [],
         status: '',
         error:''
     },

@@ -178,7 +178,16 @@ img{
   max-height: 850px;
 }
 
-
+@media (max-width: 1025px) {
+  .swiper-button-next, .swiper-rtl .swiper-button-prev {
+    right: 5px;
+    left: auto;
+  }
+  .swiper-button-prev, .swiper-rtl .swiper-button-next {
+    left: 5px;
+    right: auto;
+  }
+}
 
 
 

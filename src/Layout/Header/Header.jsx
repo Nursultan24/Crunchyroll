@@ -1,7 +1,7 @@
 import React from 'react';
 import {Link, NavLink} from "react-router-dom";
 import {FaNimblr} from "react-icons/fa"
-import {TfiCrown} from "react-icons/tfi"
+import {FaRegBookmark} from "react-icons/fa"
 import {useDispatch, useSelector} from "react-redux";
 import {logOutAccount} from "../../redux/reducers/user";
 import {changeSearch} from "../../redux/reducers/anime";
@@ -47,14 +47,7 @@ const Header = () => {
 
                     <div className="header__right">
                         <div className="header__right-pay">
-                            <TfiCrown/>
-                            <div className="header__right-pay-crown">
-                                Попробовать <br/>
-                                Бесплатно <br/>
-                                <div className='header__right-pay-crown-text' >
-                                    Премиум
-                                </div>
-                            </div>
+                           <Link to={'/favorites'}> <FaRegBookmark/></Link>
                         </div>
                         <ul className='header__right-icons'>
                             <input type="search" placeholder='Поиск' className='header__search' onChange={handleChange}/>
